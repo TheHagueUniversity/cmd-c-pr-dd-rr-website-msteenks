@@ -1,0 +1,270 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+.whiteBox {
+	background-color: rgba(255,255,255,.25);
+	width: 100%;
+	height: 80px;
+}
+
+header {
+	width: 100%;
+	height: 165px;
+	background-image: url('Informatie background 2.jpg');
+}
+
+.logo {
+	width: 70px;
+	height: 70px;
+	display: block;
+	text-indent:-9999px;
+	background-image: url('https://www.theater.nl/img/2015/11/03112015150933_O_logo_theater.png');
+	background-size: cover;
+	margin-top: -75px;
+	margin-left: 10px;
+}
+
+li a.menubutton {
+	width: 160px;
+  	height: 90px;
+  	display: block;
+  	text-indent: -9999px;
+  	background-image: url('menuButton.png');
+  	background-size: cover;
+  	float: right;
+  	margin-right: 10px;
+  	margin-top: -98px;
+}
+
+header img {
+	width: 100%;
+	height: auto;
+	max-width: 80px;
+}
+
+.layout {
+	margin-top: -50px;
+}
+
+.button {
+    background-color: #DC2B54;
+    border: none;
+    color: white;
+    padding: 6px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    margin-top: -49px;
+    margin-right: 180px;
+}
+
+.button:hover {
+	background-color: #333333;
+}
+
+.search {
+	width: 25px;
+	height: 25px;
+	background-image: url('search.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-indent: -9999px;
+	float: right;
+	margin-top: -84px;
+	margin-right: 350px;
+	list-style-type: none;
+	cursor: not-allowed;
+}
+
+.shoppingcart {
+	width: 25px;
+	height: 25px;
+	background-image: url('shoppingcart.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+	text-indent: -9999px;
+	margin-top: -84px;
+	margin-right: 315px;
+	list-style-type: none;
+	cursor: not-allowed;
+}
+
+.titel {
+	font-size: 150%;
+	color: white;
+	text-align: center;
+	margin-top: -15px;
+}
+
+.ars {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+.ars p {
+	margin-top: 20px;
+	word-spacing: 3px;
+	line-height: 150%;
+}
+
+.algemeen {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+.algemeen p {
+	margin-top: 20px;
+	word-spacing: 3px;
+	line-height: 150%;
+}
+
+.fotovoorstelling {
+	background-image: url('fotovoorstelling.png');
+	background-size: cover;
+	height: 300px;
+}
+
+.tekstbanner {
+	text-align: center;
+	margin-top: 38px;
+	color: white;
+	font-size: 200%;
+}
+
+.buttonvoorstellingen {
+	background-color: #DC2B54;
+	text-align: center;
+	margin: 0 auto;
+	width: 200px;
+	border: none;
+	padding: 15px 30px;
+	cursor: pointer;
+	margin-top: 80px;
+	cursor: not-allowed;
+	opacity: 0.4;
+}
+
+.buttonvoorstellingen a {
+	color: white;
+	font-style: bold;
+	text-decoration: none;
+	cursor: not-allowed;
+}
+
+.footer {
+	height: 300px;
+  	position: relative;
+  	bottom: 0;
+  	right: 0;
+  	left: 0;
+  	padding: 1rem;
+  	background-color: #333333;
+  	text-align: left;
+  	color: white;
+  	overflow: hidden;
+}
+
+.menu li {
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.menu ul {
+	padding-top: 30px;
+	padding-left: 100px;
+}
+
+.linkhome {
+	color: white;
+	text-decoration: none;
+}
+
+.linkhome:hover {
+	color: #DC2B54;
+}
+
+.linklid {
+	color: white;
+	text-decoration: none;
+}
+
+.linklid:hover {
+	color: #DC2B54;
+}
+
+.social ul {
+	list-style-type: none;
+	float: left;
+	padding-left: 450px;
+	margin-top: -185px;
+}
+
+.social li {
+	margin-top: 10px;
+}
+
+.facebook {
+	background-image: url('facebook.svg');
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+.twitter {
+	background-image: url('twitter.svg');
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+.youtube {
+	background-image: url('youtube.svg');
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+.contact ul {
+	list-style-type: none;
+	float: left;
+	padding-left: 750px;
+	margin-top: -185px;
+}
+
+.contact li {
+	margin-top: 10px;
+}
+
+.route ul {
+	list-style-type: none;
+	float: left;
+	padding-left: 1100px;
+	margin-top: -185px;
+}
+
+.route li {
+	margin-top: 10px;
+}
+
+.routeimg {
+	width: 200px;
+	height: 180px;
+	background-image: url('route.png');
+	background-size: cover;
+}
+
